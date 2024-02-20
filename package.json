@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ebenak2000/TinyApp/issues"
   },
-  "homepage": "https://github.com/ebenak2000/TinyApp#readme"
+  "homepage": "https://github.com/ebenak2000/TinyApp#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
