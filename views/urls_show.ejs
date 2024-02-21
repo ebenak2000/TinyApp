@@ -22,6 +22,13 @@
       </div>
       <div class="card-footer text-muted"></div>
     </div>
+    <main style="margin: 1em;">
+      <h3>Edit Short URL</h3>
+      <form method="POST" action="/urls/<%= id %>">
+        <input type="text" name="longURL" value="<%= longURL %>" placeholder="Enter a new long URL here">
+        <button type="submit">Update</button>
+      </form>
+    </main>
     <!-- Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
